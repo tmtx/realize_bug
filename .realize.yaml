@@ -1,0 +1,18 @@
+server:
+  status: false
+  open: false
+  port: 0
+  host: ""
+schema:
+- name: realize_bug
+  path: .
+  commands: {}
+  watcher:
+    paths:
+    - ./
+    extensions:
+    - go
+    ignored_paths:
+    - .git
+    - .realize
+    - vendor
